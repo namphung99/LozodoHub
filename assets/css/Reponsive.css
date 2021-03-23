@@ -150,6 +150,11 @@
         animation: fadeIn .8s;
     }
 
+    .header__cart{
+        width: 100px;
+        margin-left: 16px;
+    }
+
     .header__search-select{
         display: none;
     }

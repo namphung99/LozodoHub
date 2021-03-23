@@ -45,6 +45,10 @@
 
 @media(max-width: 767px){
 
+    .product__container{
+        padding: 40px 0;
+    }
+
     .content-img{
         text-align: center;
     }
@@ -52,5 +56,142 @@
     .content-img--sub{
         display:flex;
         justify-content: center;
+    }
+
+    /* product overview */
+
+    .content-img--main{
+        width:320px;
+        height: 320px;
+    }
+
+    .item-img{
+        width:62px;
+        height:62px;
+    }
+
+    .title-info--main{
+        font-size: 16px;
+    }
+
+    .title-info--sub{
+        font-size:12px;
+    }
+
+    .info-price span{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    .shipment{
+        padding-left: 10px;
+    }
+
+    .shipment-title{
+        display:none;
+    }
+
+    .color-select, .quantity-product {
+        padding-left: 10px;
+        height:60px;
+        line-height: 60px;
+    }
+
+    .color-select--list{
+        flex-wrap: wrap;
+    }
+
+    .color-select--item {
+        height: 20px;
+        min-width: 74px;
+        line-height: 20px;
+        margin-right: 8px;
+        margin-top: 8px;
+    }
+
+    .color-select--desc {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .color-select--title, .shipment-title, .quantity-title {
+        width: 110px;
+        font-size: 14px;
+        color: #767676;
+        margin-right: 10px;
+    }
+
+    .quantity-detail{
+        flex-wrap: wrap;
+    }
+
+    .quantity-input {
+        margin-right: 24px;
+        height: 28px;
+        min-width: 100px;
+    }
+
+    .quantity-inventory {
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    /* buy */
+
+    .buy-product {
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-top: 24px;
+    }
+
+    .buy-product--add-to-cart,
+    .buy-product--buy-now {
+        min-width: 180px;
+        min-height: 42px;
+        padding: 4px 16px;
+    }
+
+    .buy-product--add-to-cart i{
+        font-size:16px;
+    }
+
+    .buy-product--add-to-cart p{
+        font-size: 14px;
+    }
+
+    .shop-contact--view-shop,
+    .buy-product--buy-now{
+        margin-top: 12px;
+    }
+
+    .shop-contact {
+        flex-wrap: wrap;
+        margin-top: 12px;
+    }
+
+    .shop-info__sub{
+        display:block;
+        padding-left:10px;
+    }
+
+    .product__detail--desc,
+    .shop-info__sub--desc-title,
+    .shop-info__sub--desc-main{
+        font-size:14px;
+    }
+
+    .product__detail--title {
+        height: 42px;
+        font-size: 18px;
+        line-height: 42px;
+        padding-left: 10px;
+        margin-bottom: 16px;
+    }
+
+    .product__detail--key {
+        min-width: 100px;
+        margin-right: 42px;
+        font-size: 14px;
     }
 }
