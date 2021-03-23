@@ -1,0 +1,27 @@
+.container{
+    max-width: 1400px;
+}
+@media (min-width: 1201px){
+    .l-2-4{
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width:1200px){
+    .l-2-4{
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media(min-width:768px) and (max-width: 1023px){
+    .m-2-4{
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media(max-width:767px){
+    
+}

@@ -1,0 +1,56 @@
+@media(min-width:1024px) and (max-width: 1200px){
+    .content-img{
+        text-align: center;
+    }
+    
+    .content-img--sub{
+        display:flex;
+        justify-content: center;
+    }
+
+    .shop__overview,
+    .product__overview,
+    .product__detail{
+        padding: 30px 20px;
+    }
+
+    .product-action--share{
+        padding-left: 60px;
+    }
+
+    .product-action--like{
+        padding-right: 60px;
+    }
+
+    /* shop overview */
+
+    .shop-contact--send-message{
+        min-width: 90px;
+        min-height:28px;
+    }
+
+
+}
+
+@media(min-width:768px) and (max-width: 1023px){
+    .content-img{
+        text-align: center;
+    }
+    
+    .content-img--sub{
+        display:flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 767px){
+
+    .content-img{
+        text-align: center;
+    }
+
+    .content-img--sub{
+        display:flex;
+        justify-content: center;
+    }
+}

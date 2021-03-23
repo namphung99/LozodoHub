@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/detailProduct.css">
+    <link rel="stylesheet" href="./assets/css/gridSystem.css">
+    <link rel="stylesheet" href="./assets/css/detailProductReponsive.css">
+    <link rel="stylesheet" href="./assets/css/Reponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.12.1-web/css/all.min.css">
+
+    <title>LoZoDoHub</title>
+</head>
+<body>
+    <div class="app">
+        <!-- Block Element Modifier -->
+
+        <header class="header">
+            <div class="container">
+
+                <!-- header navbar -->
+
+                <nav class="header__navbar md-0 sm-0">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng LoZoDoHub
+
+                            <!--header QR code-->
+                            <div class="header__qr">
+                                <img src="./assets/img/QRcode.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/google_play.png" alt="google play" class="header__qr-download-img"></a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app_store.png" alt="app store" class="header__qr-download-img"></a>  
+                                </div>
+                            </div>
+                            <!--..header__qr-->
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-no--pointer">Kết Nối</span>
+                            <a href="" class="header__navbar-icon-facebook-ig">
+                                <i class=" header__navbar-icon fab fa-facebook-square"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-facebook-ig">
+                                <i class=" header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class=" header__navbar-icon far fa-bell"></i>
+                                Thông Báo
+                            </a>
+                            <!--Thông báo-->
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông Báo Mới Nhận</h3>
+                                </header>
+                                <!--.header__notify-header-->
+
+                                <ul class="header__notify-list">
+                                    <li class="header__notifi-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/ThoCamDuc.jpg" alt="" class="header__noyify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">SALE OFF 69% Thổ Cẩm Đức made in Việt Nam</span>
+                                                <span class="header__notify-description">215000đ (giá gốc 690000đ)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notifi-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/KiengPhap.jpg" alt="" class="header__noyify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Kiềng Pháp | điểm nhấn tạo nên sự quý tộc</span>
+                                                <span class="header__notify-description">Kiểu cách đơn giản nhưng sang trọng,thiết
+                                                     kế theo phong cách Châu Âu</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notifi-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/Nhan_Italy.jpg" alt="" class="header__noyify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Nhẫn Italy chính thức ra mắt phiên bản limited
+                                                    Nhẫn Italy chính thức ra mắt phiên bản limited
+                                                </span>
+                                                <span class="header__notify-description">Mô tả của Nhẫn Italy</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notifi-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/Son_li.png" alt="" class="header__noyify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Son Lì "không trôi" SALE UP TO 69%</span>
+                                                <span class="header__notify-description">Mô tả Son Lì "không trôi"</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notifi-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/combo_idol.webp" alt="" class="header__noyify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">|HOT NEW|  Combo Idol Giới Trẻ</span>
+                                                <span class="header__notify-description">Phong cách Idol KB</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem Tất Cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class=" header__navbar-icon far fa-question-circle"></i>
+                                Trợ Giúp</a>
+                        </li>
+                        <!-- khi chưa login -->
+
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng Ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Đăng Nhập</li> -->
+
+                        <!-- khi chưa login  -->
+
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/img/pay.png" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Nam Phung</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Thông Tin Tài Khoản</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa Chỉ Giao Hàng</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn Mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="">Đăng Xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+    
+                </nav>
+
+                <!-- header navbar -->
+            
+                <!-- Logo with search -->
+
+                <div class="header-with-search">
+
+                    <label for = "mobile-search-checkbox"  class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+
+                    <a href="/" class="header__logo-link">
+                        <div class="header__logo">
+                            <i class="header__logo-icon-logo fab fa-cc-amazon-pay"></i>
+                            <p class="header__logo-name md-0 sm-0">LoZoDoHub</p>
+                        </div>
+                    </a> 
+
+                    <input type="checkbox"  hidden name="" id="mobile-search-checkbox" class="header__search-checkbox">
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
+                            
+                            <!-- Search History -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="https://www.youtube.com/">Cuộc Sống Rất Giống Cuộc Đời</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="#">Cuộc Sống Đếch Giống Cuộc Đời</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>  
+                        <div class="header__search-select">
+                            <span class="header__search-select-lable">Trong Shop</span>
+                            <i class="header__search-select-icon fas fa-angle-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+
+                    <!-- Cart layout -->
+
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">3</span>
+                            <!-- No cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-no-cart-mess">
+                                    Chưa có sản phẩm</span>
+
+                                <!-- Has Cart -->
+
+                                <h3 class="header__cart-heading">Sản Phẩm Đã Thêm</h3>
+                                <ul class="header__cart-list-item">
+                                    <!-- Cart item -->
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/CSDGCD.png" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Cuộc Sống Đếch Giống Cuộc Đời</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">90.000đ</span>
+                                                    <span class="header__cart-item-multply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân Loại : Sách
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                                <span class="header__cart-item-remove-icon"><i class="fas fa-trash"></i></span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/CSRGCD.jpg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Cuộc Sống Rất Giống Cuộc Đời</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">45.000đ</span>
+                                                    <span class="header__cart-item-multply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân Loại : Sách
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                                <span class="header__cart-item-remove-icon"><i class="fas fa-trash"></i></span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/Aegis.jpeg" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Aegis Boost Kit</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">869.000đ</span>
+                                                    <span class="header__cart-item-multply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân Loại : Thuốc lá điện tử
+                                                </span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                                <span class="header__cart-item-remove-icon"><i class="fas fa-trash"></i></span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a href="" class="header__cart-view-cart btn btn--primary">Xem Giỏ Hàng</a>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Cart layout -->
+                    
+                </div>
+
+                <!-- Logo with search -->
+
+            </div>
+
+        </header> 
+        <!-----.header----->
+
+        <div class="product__container">
+            <div class="container">
+                <div class="product__overview">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
+                            <div class="content-img">
+                                <img src="https://anhducdigital.vn/media/product/7824_iphone_11_pro_max_midnight_green.jpg" alt="" class="content-img--main">
+                                <div class="content-img--sub">
+                                    <div class="list-img">
+                                        <img src="https://anhducdigital.vn/media/product/7824_iphone_11_pro_max_midnight_green.jpg" alt="" class="item-img">
+                                        <img src="https://techland.com.vn/wp-content/uploads/2019/09/dien-thoai-iphone-11-pro-max-4.jpg" alt="" class="item-img">
+                                        <img src="https://anhducdigital.vn/media/product/7824_iphone_11_pro_max_midnight_green.jpg" alt="" class="item-img">
+                                        <img src="https://imaxmobile.vn/media/data/san-pham/xs/iphone-11-pro-max-trang-didongviet_6.jpg" alt="" class="item-img">
+                                        <img src="https://imaxmobile.vn/media/data/san-pham/xs/iphone-11-pro-max-trang-didongviet_6.jpg" alt="" class="item-img">
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="product-action">
+                                <div class="product-action--share">
+                                    <div class="action-desc">Chia sẻ:</div>
+                                    <div class="list-img-share">
+                                        <img src="assets/img/mess.png" alt="" class="item-img-share">
+                                        <img src="assets/img/facebook.png" alt="" class="item-img-share">
+                                        <img src="assets/img/instagram.jpg" alt="" class="item-img-share">
+                                    </div>
+                                </div>
+                                <div class="product-action--like">
+                                    <i class="action-like-icon fas fa-heart"></i>
+                                    <div class="action-desc">Đã thích (99)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12">
+                            <div class="info-product">
+                                <div class="title-info--main">[Trả góp 0% LS] Điện Thoại iPhone 11 Pro Max 64GB - Hàng chính hãng Apple, nguyên seal mới 100%</div>
+                                <div class="title-info--sub">
+                                    <div class="info-rating">
+                                        Chưa Có Đánh Giá
+                                    </div>
+                                    <div class="info-sold--amount">
+                                        0
+                                        <span>Đã Bán</span>
+                                    </div>
+                                </div>
+    
+                                <div class="info-price">
+                                    <span>₫28.490.000 - ₫28.990.000</span>
+                                </div>
+    
+                                <div class="shipment">
+                                    <span class="shipment-title">Vận Chuyển:</span>
+                                    <div class="shipment-info">
+                                        <div class="shipment-address">
+                                            <i class="shipment-address--icon fas fa-truck-moving"></i>
+                                            <span class="shipment-address--title">Vận Chuyển Tới:</span>
+                                            <div class="shipment-address--option">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <select class="form-control--shipment" id="address-select">
+                                                          <option class="address-select--name">Hà Nội</option>
+                                                          <option class="address-select--name">Đà Nẵng</option>
+                                                          <option class="address-select--name">TP Hồ Chí Minh</option>
+                                                        </select>
+                                                      </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="shipment-price">
+                                            <span class="shipment-price--title">Đơn Vị Vận Chuyển</span>
+                                            <div class="shipment-price--option">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <select class="form-control--shipment" id="shipment-select">
+                                                            <option>
+                                                                <div class="shipment-name">Giao Hàng Nhanh:</div>
+                                                                <div class="shipment-price--detail">₫28.990</div>
+                                                            </option>
+                                                            <option>
+                                                                <div class="shipment-name">Giao Hàng Tiết Kiệm:</div>
+                                                                <div class="shipment-price--detail">₫30.000</div>
+                                                            </option>
+                                                            <option>
+                                                                <div class="shipment-name">Viettel Post:</div>
+                                                                <div class="shipment-price--detail">₫25.000</div>
+                                                            </option>
+                                                        </select>
+                                                      </div>
+                                                </form>
+                                            </div>
+                                    </div>
+                                    </div>
+                                </div>
+    
+                                <div class="color-select">
+                                    <div class="color-select--title">Màu Sắc: </div>
+                                    <div class="color-select--list">
+                                        <div class="color-select--item">
+                                            <span class="color-select--desc">
+                                                Màu đen
+                                            </span>
+                                        </div>
+                                        <div class="color-select--item">
+                                            <span class="color-select--desc">
+                                                Màu vàng
+                                            </span>
+                                        </div>
+                                        <div class="color-select--item">
+                                            <span class="color-select--desc">
+                                                Màu trắng
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="quantity-product">
+                                    <div class="quantity-title">
+                                        Số Lượng
+                                    </div>
+                                    <div class="quantity-detail">
+                                        <div class="quantity-input">
+                                            <div class="quantity-input--decrease">-</div>
+                                            <div class="quantity-input--main">1</div>
+                                            <div class="quantity-input--increase">+</div>
+                                        </div>
+                                        <div class="quantity-inventory">
+                                            86 sản phẩm có sẵn
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="buy-product">
+                                    <div class="buy-product--add-to-cart">
+                                        <i class="fas fa-cart-plus"></i>
+                                        <p>Thêm vào giỏ hàng</p>
+                                    </div>
+                                    <div class="buy-product--buy-now">
+                                        <p>Mua ngay</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="shop__overview">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
+                            <div class="shop-info__main">
+                                <img src="https://scontent.fhan2-1.fna.fbcdn.net/v/t1.0-9/142874702_2850279771878642_5252645016340378119_o.jpg?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=3z7zltLzR-4AX-ZWnh-&_nc_ht=scontent.fhan2-1.fna&oh=44c58dde0f6bc7cf7970c162dcd9b619&oe=60818308"
+                                    alt="" class="shop-info--logo"
+                                >
+                                <div class="shop-info--detail">
+                                    <div class="shop-desc">
+                                        <div class="shop-desc--name">
+                                            <span>NamPhung</span>
+                                        </div>
+                                        <div class="shop-desc--online">
+                                            <span>Online 1 giờ trước</span>
+                                        </div>
+                                    </div>
+                                    <div class="shop-contact">
+                                        <div class="shop-contact--send-message">
+                                            <i class="fab fa-facebook-messenger"></i>
+                                            <span> Chat ngay</span>
+                                        </div>
+                                        <div class="shop-contact--view-shop">
+                                            <i class="fas fa-store"></i>
+                                            <span>Xem shop</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12">
+                            <div class="shop-info__sub">
+                                <div class="shop-info__sub--rating">
+                                    <div class="shop-info__sub--desc">
+                                        <div class="shop-info__sub--desc-title">
+                                            Đánh giá
+                                        </div>
+
+                                        <div class="shop-info__sub--desc-main">
+                                            100
+                                        </div>
+                                    </div>
+                                    <div class="shop-info__sub--desc">
+                                        <div class="shop-info__sub--desc-title">
+                                            Tỉ lệ phản hồi
+                                        </div>
+
+                                        <div class="shop-info__sub--desc-main">
+                                            96%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-info__sub--rating">
+                                    <div class="shop-info__sub--desc">
+                                        <div class="shop-info__sub--desc-title">
+                                            Đánh giá
+                                        </div>
+
+                                        <div class="shop-info__sub--desc-main">
+                                            100
+                                        </div>
+                                    </div>
+                                    <div class="shop-info__sub--desc">
+                                        <div class="shop-info__sub--desc-title">
+                                            Tỉ lệ phản hồi
+                                        </div>
+
+                                        <div class="shop-info__sub--desc-main">
+                                            96%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-info__sub--rating">
+                                    <div class="shop-info__sub--desc">
+                                        <div class="shop-info__sub--desc-title">
+                                            Đánh giá
+                                        </div>
+
+                                        <div class="shop-info__sub--desc-main">
+                                            100
+                                        </div>
+                                    </div>
+                                    <div class="shop-info__sub--desc">
+                                        <div class="shop-info__sub--desc-title">
+                                            Tỉ lệ phản hồi
+                                        </div>
+
+                                        <div class="shop-info__sub--desc-main">
+                                            96%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product__detail">
+                    <div class="product__detail--title">
+                        Chi tiết sản phẩm
+                    </div>
+                    <div class="product__detail--main">
+                        <label class="product__detail--key">
+                            Thương hiệu
+                        </label>
+                        <span class="product__detail--desc">
+                            Apple
+                        </span>
+                    </div>
+
+                    <div class="product__detail--main">
+                        <label class="product__detail--key">
+                            Model
+                        </label>
+                        <span class="product__detail--desc">
+                            iPhone 11 Pro
+                        </span>
+                    </div>
+
+                    <div class="product__detail--main">
+                        <label class="product__detail--key">
+                            Bộ nhớ trong
+                        </label>
+                        <span class="product__detail--desc">
+                            256GB
+                        </span>
+                    </div>
+
+                    <div class="product__detail--main">
+                        <label class="product__detail--key">
+                            Khe cắm sim
+                        </label>
+                        <span class="product__detail--desc">
+                            Single
+                        </span>
+                    </div>
+
+                    <div class="product__detail--main">
+                        <label class="product__detail--key">
+                            Mạng
+                        </label>
+                        <span class="product__detail--desc">
+                            5G
+                        </span>
+                    </div>
+
+                    <div class="product__detail--main">
+                        <label class="product__detail--key">
+                            HĐH
+                        </label>
+                        <span class="product__detail--desc">
+                            IOS
+                        </span>
+                    </div>
+
+                    <div class="product__detail--main">
+                        <label class="product__detail--key">
+                            RAM
+                        </label>
+                        <span class="product__detail--desc">
+                            6GB
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-sm-12 centerX">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">LoZoDo Mall</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <h3 class="footer__heading">Theo dõi chúng tôi</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="https://www.facebook.com/namphung2204" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-facebook-square"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-instagram-square"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon  fab fa-twitter-square"></i>
+                                    Twitter
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <h3 class="footer__heading">Danh Mục</h3>
+                        <ul class="footer__list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Điện Thoại - Máy Tính Bảng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Sách - Tạp Chí</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Phụ Kiện - Thiết Bị Số</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Laptop - Thiết Bị IT</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Thời Trang - Sắc Đẹp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Máy Ảnh - Quay Phim</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Vape-Pod System</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Các Sản Phẩm Liên Quan</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=" col-xl-3 col-md-6 col-sm-12">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="./assets/img/QRcode.png" alt="Download QR" class="footer__download-qr">
+                            <div class="footer__download-app">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/img/google_play.png" alt="Google Play" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/img/app_store.png" alt="App Store" class="footer__download-app-img">                       
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container footer__content">
+                   <div class="row">
+                       <div class="col-xl-6 col-md-6 col-sm-12">
+                            <div class="column__50-percent">
+                                <i class="column__50-percent-icon fas fa-map-marker-alt"></i>                
+                                <div class="column__50-percent-title">
+                                    <p class="title__text"><b>Địa Chỉ Văn Phòng: </b>Học Viện CNBCVT Km10 - Nguyễn Trãi - Thanh Xuân - Hà Nội</p>
+                                    <p class="title__text">LoZoDo nhận đặt hàng trực tuyến và giao hàng tận nơi,
+                                        chưa hỗ trợ mua và nhận hàng trực tiếp tại văn phòng hoặc trung tâm xử lý đơn hàng
+                                    </p>
+                                </div>
+                            </div>
+                       </div>
+
+                       <div class="col-xl-6 col-md-6 col-sm-12">
+                            <div class="column__50-percent">
+                                <i class="column__50-percent-icon fas fa-handshake"></i>
+                                <div class="column__50-percent-title">
+                                    <p class="title__text"><b>Chúng Tôi Cam Kết: </b>Giao hàng nhanh chóng,chi phí phải chăng,được phục
+                                        vụ quý khách hàng là niềm vinh dự với chúng tôi</p>
+                                    <p class="title__text title__text--parimary"> đảm bảo tốc độ giao hàng nhanh số 1 Việt Nam!!!</p>
+                                </div>
+                            </div>
+                       </div>
+                   </div>
+
+                    <div class="row">
+                        
+                        <!-- <div class="border__right-title"> -->
+                            <div class="col-xl-3 col-md-12 col-sm-12">
+                                <div class="column__text-inline">
+                                    <a href="" class="column__text-inline-title">
+                                        <span class="text__span">CHÍNH SÁCH BẢO MẬT</span>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="col-xl-3 col-md-12 col-sm-12">
+                                <div class="column__text-inline">
+                                    <a href="" class="column__text-inline-title">
+                                        <span class="text__span">QUY CHẾ HOẠT ĐỘNG</span>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="col-xl-3 col-md-12 col-sm-12">
+                                <div class="column__text-inline">
+                                    <a href="" class="column__text-inline-title">
+                                        <span class="text__span">CHÍNH SÁCH VẬN CHUYỂN</span>
+                                    </a>
+                                </div>
+                            </div>
+    
+                            <div class="col-xl-3 col-md-12 col-sm-12">
+                                <div class="column__text-inline">
+                                    <a href="" class="column__text-inline-title">
+                                        <span class="text__span">CHÍNH SÁCH ĐỔI TRẢ</span>
+                                    </a>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+
+                   </div>
+                    <p class="footer__text">&copy; 2020 Bản Quyền Thuộc Về <span class="title__text--parimary">NamPhung</span></p>
+                    <p class="footer__text">Giấy chứng nhận Đăng ký Kinh doanh số 6969696969 do Sở Kế hoạch
+                         và Đầu tư Thành phố Hà Nội cấp ngày <span class="title__text--parimary">08/07/2019</span></p>
+                </div>
+            </div>
+        </footer>
+        <!-----.footer----->
+    </div>
+
+    <script src="./assets/JS/main.js"></script>
+    <script src="./assets/JS/detailProduct.js"></script>
+
+
+</body>
+</html>
