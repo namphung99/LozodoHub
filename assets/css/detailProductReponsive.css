@@ -118,9 +118,9 @@
     .shipment-title{
         display:none;
     }
-
-    .shipment-address i{
-        display:none;
+      
+    .shipment-address--icon{
+        display:none !important;
     }
 
     .color-select, .quantity-product {
