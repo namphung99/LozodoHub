@@ -119,6 +119,10 @@
         display:none;
     }
 
+    .shipment-address i{
+        display:none;
+    }
+
     .color-select, .quantity-product {
         padding-left: 10px;
         height:60px;
@@ -163,6 +167,7 @@
         font-size: 14px;
         height: 30px;
         line-height: 30px;
+        margin-top: 4px;
     }
 
     /* buy */
