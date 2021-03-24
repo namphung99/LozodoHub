@@ -60,6 +60,34 @@
 
     /* product overview */
 
+    .list-img-share {
+        display: flex;
+        align-items: center;
+    }
+
+    .action-desc {
+        font-size: 14px;
+        line-height:26px;
+    }
+
+    .product-action {
+        margin-top: 16px;
+    }
+
+    .item-img-share {
+        width: 20px;
+        height: 20px;
+        line-height: 26px;
+        margin-left: 4px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .product-action--like {
+    display: flex;
+    height: 26px;
+}
+
     .content-img--main{
         width:320px;
         height: 320px;
